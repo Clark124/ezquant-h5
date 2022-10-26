@@ -1,0 +1,102 @@
+.index-wrapper{
+    /* height: 100vh; */
+    padding-bottom: 50px;
+}
+.home-icon{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/sy.png') center center /  21px 21px no-repeat;
+}
+.home-icon-selected{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/sy_selected.png') center center /  21px 21px no-repeat;
+}
+.select-time-icon{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/zs.png') center center /  21px 21px no-repeat;
+}
+.select-time-icon-selected{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/zs_selected.png') center center /  21px 21px no-repeat;
+}
+.stock-pick-icon{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/xg.png') center center /  21px 21px no-repeat;
+}
+.stock-pick-icon-selected{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/xg_selected.png') center center /  21px 21px no-repeat;
+}
+.compose-icon{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/zh.png') center center /  21px 21px no-repeat;
+}
+.compose-icon-selected{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/zh_selected.png') center center /  21px 21px no-repeat;
+}
+.trade-icon{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/jy.png') center center /  21px 21px no-repeat;
+}
+.trade-icon-selected{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/jy_selected.png') center center /  21px 21px no-repeat;
+}
+.user-icon{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/wd.png') center center /  21px 21px no-repeat;
+}
+.user-icon-selected{
+    height: 22px;
+    width: 22px;
+    margin: 0 auto;
+    background: url('./images/wd_selected.png') center center /  21px 21px no-repeat;
+}
+.tabbar-wrapper{
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: #fff;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #eee;
+}
+.tabbar-item{
+    flex: 1;
+    text-align: center;
+}
+.tabbar-item-text{
+    margin-top: 3px;
+    color: rgb(153, 153, 153);
+    font-size: 10px;
+}
+.tabbar-item-text.active{
+    color: #222;
+}

@@ -1,0 +1,92 @@
+.pick-stock-result-wrapper{
+    color: #222;
+    padding: 15px;
+    padding-bottom: 40px;
+    >.title{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .result-list{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 15px 10px;
+        .result-head{
+            display: flex;
+            >span{
+                flex: 1;
+                text-align: center;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .result-item{
+            display: flex;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            align-items: center;
+            &:last-of-type{
+                border-bottom: none;
+            }
+            >div{
+                flex: 1;
+                text-align: center;
+                .stock-name{
+                    font-size: 14px;
+                }
+                .stock-code{
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+            .price{
+                font-weight: bold;
+                font-size: 14px;
+            }
+            .profit{
+                font-weight: bold;
+                font-size: 14px;
+                &.red{
+                    color: #E84345;
+                }
+                
+            }
+            .add-fav{
+                width: 55px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 13px;
+                color: #083AEF;
+                border-radius: 3px;
+                border: 1px solid #A1B2F1;
+                background-color: #EEF2FF;
+                padding: 5px 0x;
+                text-align: center;
+                &.gray{
+                    color: #fff;
+                    background-color: gray;
+                    border: 1px solid gray;
+                }
+            }
+        }
+    }
+    >.pick-stock-result-btn-wrapper{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        >.pick-stock-result-btn{
+            color: #fff;
+            background-color: #083AEF;
+            height: 37px;
+            line-height: 37px;
+            flex: 1;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+}

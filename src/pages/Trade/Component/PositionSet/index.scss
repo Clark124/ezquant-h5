@@ -1,0 +1,37 @@
+.position-set-wrapper{
+    padding: 15px 15px 40px 15px;
+    >.title{
+        font-size: 16px;
+        text-align: center;
+    }
+    .position-set-list{
+        margin-top: 15px;
+    }
+    .position-set-item{
+        margin-bottom: 10px;
+        background-color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        .position-input{
+            width: 110px;
+            padding-left: 10px;
+            // text-align: right;
+        }
+    }
+
+    .footer-btn{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #1677ff;
+        color: #fff;
+        font-size: 16px;
+    }
+}

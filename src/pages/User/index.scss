@@ -1,0 +1,77 @@
+.user-wrapper{
+    .banner{
+        position: relative;
+        height: 170px;
+        width: 100%;
+        background:url('./images/grzxbj.png') no-repeat fixed;
+        background-size: contain;
+       
+        .userinfo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .avatar{
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin-top: 20px;
+            padding: 2px;
+        }
+        .vip-icon{
+            margin-top: 5px;
+            width: 70px;
+            height: 25px;
+        }
+        .brief{
+            margin-top: 10px;
+            color: #fff;
+            text-align: center;
+            width: 80%;
+            font-size: 15px;
+
+        }
+        .login-text{
+            margin-top: 10px;
+            color: #fff;
+            text-align: center;
+            width: 80%;
+            font-size: 15px;
+        }
+    }
+    .user-nav-list{
+        margin-top: 15px;
+        padding: 0 20px;
+        .nav-item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            height: 40px;
+            padding: 0 20px;
+            color: #222;
+            font-size: 15px;
+            border-radius: 5px;
+            margin-bottom: 8px;
+            .nav-name{
+                display: flex;
+                align-items: center;
+                .nav-icon{
+                    width: 21px;
+                    height: 21px;
+                    margin-right: 10px;
+                }
+                .number{
+                    color: red;
+                    font-size: 13px;
+                }
+            }
+           
+            .arrow-icon{
+                width: 12px;
+            }
+        }
+    }
+    
+}

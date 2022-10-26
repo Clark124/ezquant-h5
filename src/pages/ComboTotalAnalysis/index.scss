@@ -1,0 +1,18 @@
+.combo-total-analysis {
+
+    .block-anslysis {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        >.title {
+            font-size: 16px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+        .chart-wrapper{
+            height: 180px;
+            border: 1px solid #eee;
+        }
+    }
+
+}

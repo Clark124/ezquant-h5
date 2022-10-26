@@ -1,0 +1,22 @@
+.trade-log-wrapper{
+    padding:15px;
+    >.title{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .log-item{
+        padding: 10px;
+        background-color: #fff;
+        margin-bottom: 10px;
+    }
+    .message{
+        margin-bottom: 7px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .time{
+        color: #999;
+    }
+}

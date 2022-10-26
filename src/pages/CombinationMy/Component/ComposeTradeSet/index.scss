@@ -1,0 +1,96 @@
+.compose-trade-set-wrapper{
+    padding: 15px;
+    color: #222;
+    >.title{
+        font-size: 14px;
+    }
+    .main-title{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .trade-set-wrapper{
+        padding: 15px 15px 1px 15px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        .set-item{
+            font-size: 14px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            &:last-of-type{
+                border-bottom: none;
+            }
+            .set-item-right{
+                display: flex;
+                align-items: center;
+                >img{
+                    width: 13px;
+                    margin-left: 5px;
+                }
+            }
+            .input-value{
+                text-align: center;
+                width: 100px;
+            }
+        }
+    }
+    .strategy-set{
+        margin-top: 20px;
+        background-color: #fff;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        >input{
+            width: 150px;
+            height: 30px;
+            padding-left: 15px;
+        }
+        .change-strategy-btn{
+            color: #fff;
+            background-color: #083AEF;
+            padding: 5px 10px;
+        }
+    }
+    .trade-set-btn{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        >div{
+            color: #fff;
+            background-color: #083AEF;
+            height: 37px;
+            line-height: 37px;
+            width: 150px;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+    .strategy-modal{
+        .strategy-item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            padding-right: 20px;
+        }
+        .code-list{
+            margin-top: 10px;
+        }
+        .code-item{
+            margin-bottom: 10px;
+            color: #083AEF;
+        }
+        .search-input{
+            width: 100%;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+    }
+}

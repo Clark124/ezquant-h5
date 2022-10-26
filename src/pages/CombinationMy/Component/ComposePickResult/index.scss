@@ -1,0 +1,56 @@
+.compose-pick-stock-result-wrapper{
+    color: #222;
+    padding: 15px;
+    padding-bottom: 40px;
+    >.title{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .result-list{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 15px 10px;
+        .result-head{
+            display: flex;
+            >span{
+                flex: 1;
+                text-align: center;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .result-item{
+            display: inline-block;
+            padding: 5px 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #eee;
+            font-size: 14px;
+
+        }
+    }
+    >.pick-stock-result-btn-wrapper{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        
+        >.pick-stock-result-btn{
+            flex: 1;
+            color: #fff;
+            background-color: #083AEF;
+            height: 37px;
+            line-height: 37px;
+            // width: 150px;
+            text-align: center;
+            font-size: 14px;
+            &.next{
+                background-color: #05208e;
+            }
+        }
+    }
+}

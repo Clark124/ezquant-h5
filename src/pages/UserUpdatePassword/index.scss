@@ -1,0 +1,41 @@
+.login-wrapper{
+    padding: 15px;
+    .adm-list-item-content-prefix{
+        width: 90px;
+        font-size: 15px;
+    }
+    .adm-list-item-content-main{
+        display: flex;
+    }
+    .adm-input-wrapper{
+        flex: 1;
+    }
+    .get-code-btn{
+        background-color: #2A89FF;
+        font-size: 14px;
+        color: #fff;
+        padding: 5px;
+        &.gray{
+            background-color: gray;
+        }
+    }
+    .login-block{
+        background: #fff;
+        border-radius: 5px;
+        padding: 15px;
+        .title{
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .login-footer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            font-size: 16px;
+            .forget-password{
+                color: #2A89FF;
+            }
+        }
+    }
+}

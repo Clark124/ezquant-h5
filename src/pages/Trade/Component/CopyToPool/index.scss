@@ -1,0 +1,45 @@
+.copu-to-pool-wrapper{
+    padding: 15px;
+    .content{
+        border-radius: 5px;
+        background: #fff;
+        padding: 15px;
+        .pool-item{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            box-sizing: border-box;
+            padding-left: 15px;
+            >.code{
+                margin-left: 20px;
+                font-size: 15px;
+            }
+        }
+        .add-pool{
+            margin: 20px 0 10px 0;
+            text-align: center;
+            border: 1px dashed #083AEF;
+            background: #EEF2FF;
+            color: #083AEF;
+            padding: 10px 0;
+            border-radius: 5px;
+        }
+    }
+    .footer-btn{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        justify-content: space-between;
+        >div{
+            text-align: center;
+            width: 160px;
+            font-size: 15px;
+            background: #083AEF;
+            height: 35px;
+            line-height: 35px;
+            color: #fff;
+        }
+    }
+}

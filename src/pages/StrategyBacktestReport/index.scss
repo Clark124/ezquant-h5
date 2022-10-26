@@ -1,0 +1,396 @@
+.strategy-detail-wrapper {
+    padding-bottom: 50px;
+
+    .params-list {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+
+        .title {
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .params {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 7px;
+            .params-item {
+                width: 109px;
+                height: 60px;
+                background: #E7EFFC;
+                border: 1px solid rgba(73, 90, 156, 0.49);
+                border-radius: 5px 5px 5px 5px;
+                text-align: center;
+                .params-data{
+                    font-size: 14px;
+                    color: #415087;
+                    margin-bottom: 5px;
+                    margin-top: 10px;
+                }
+                .params-title{
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .main-info {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+
+        .title {
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .total-profit {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .number {
+                font-size: 18px;
+                color: #FE5958;
+                margin-right: 20px;
+            }
+
+            .text {
+                font-size: 12px;
+                color: #222;
+            }
+
+            .create-date {
+                font-size: 12px;
+                color: #999;
+            }
+
+            .backtext-btn {
+                padding: 5px;
+                font-size: 13px;
+                color: white;
+                background-color: #083AEF;
+            }
+        }
+
+        .info-list {
+            border: 1px solid #eee;
+
+            .list-head {
+                background-color: #E7EFFC;
+                font-size: 12px;
+                color: #222;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5px 10px;
+                >span{
+                    flex: 1;
+                    text-align: center;
+                    border-right: 1px solid #999;
+                    &:nth-child(3n+3){
+                        border-right: none;
+                    }
+                }
+            }
+
+            .list-date {
+                font-size: 14px;
+                color: #222;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5px 10px;
+                >span{
+                    flex: 1;
+                    text-align: center;
+                }
+
+                >span.red {
+                    color: #E84345;
+                }
+            }
+        }
+    }
+
+    .strategty-introduce {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+
+        .info-list {
+            border: 1px solid #eee;
+
+            .list-head {
+                background-color: #E7EFFC;
+                font-size: 12px;
+                color: #222;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5px 10px;
+            }
+
+            .list-date {
+                font-size: 14px;
+                color: #222;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5px 10px;
+
+                >span.red {
+                    color: #E84345;
+                }
+            }
+        }
+
+        >.title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+
+            .look-btn {
+                font-size: 13px;
+                color: #083AEF;
+                text-decoration: underline;
+            }
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+
+            .avatar {
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                margin-right: 5px;
+            }
+
+            .username {
+                font-size: 14px;
+                color: #222;
+                margin-right: 10px;
+            }
+
+            >.text {
+                font-size: 12px;
+                color: #999;
+            }
+        }
+
+        .introduce {
+            font-size: 14px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+    }
+
+    .profit-chart-wrapper {
+        padding: 15px;
+        background: #fff;
+        color: #222;
+        margin-bottom: 10px;
+
+        .profit-chart-title {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .nav-analysis-btn {
+                font-size: 10px;
+                color: #999;
+            }
+        }
+
+        .chart-list {
+            height: 240px;
+            border: 1px solid #eee;
+        }
+
+        .chart-head-tab {
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid #eee;
+
+            >span {
+                padding: 10px 20px;
+                font-size: 12px;
+                color: #999;
+                font-weight: bold;
+
+                &.active {
+                    color: #083AEF;
+                    border-bottom: 2px solid #083AEF;
+                }
+            }
+        }
+
+        .line-chart {
+            height: 200px;
+        }
+    }
+
+    .hold-position {
+        padding: 15px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        >.title {
+            font-size: 14px;
+            color: #222;
+        }
+
+        .hold-list {
+            margin-top: 10px;
+            padding: 15px 0;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+
+        .hold-list-head {
+            font-size: 12px;
+            color: #999;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+            >span {
+                flex: 1;
+                text-align: center;
+            }
+
+            .date {
+                flex: 1.5;
+            }
+        }
+
+        .hold-data-list {
+            font-size: 14px;
+            color: #222;
+            margin-top: 5px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            >div {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                padding: 5px 10px;
+            }
+
+            .date {
+                flex: 1.5;
+            }
+
+            .stock-name {
+                font-weight: bold;
+            }
+
+            .stock-code {
+                color: #999;
+                font-size: 12px;
+            }
+
+            .update-down,
+            .price,
+            .position {
+                // font-weight: bold;
+
+                &.red {
+                    color: #E84345;
+                }
+
+                &.green {
+                    color: #3EEFA5;
+                }
+            }
+
+        }
+    }
+    .signal-wrapper{
+        background-color: #fff;
+        padding: 15px 0;
+        margin-bottom: 10px;
+        >.title{
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #222;
+            padding: 0 15px;
+        }
+    }
+    .best-stock{
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        .stock-list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-top: 10px;
+            height: 40px;
+            border: 1px solid #eee;
+            .name-code{
+                display: flex;
+                align-items: center;
+                .index{
+                    width: 40px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .stock-name{
+                    color: #222;
+                }
+                .stock-code{
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+            .profit{
+                margin-right: 15px;
+                color: #E84345;
+            }
+        }
+    }
+    .tips{
+        padding: 10px 15px;
+        background-color: rgba(238, 133, 134, 0.1);
+        color: #FC5F01;
+        font-size: 12px;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 50px;
+        display: flex;
+
+        >div {
+            flex: 1;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            &.follow-btn{
+                background-color: #083AEF;
+            }
+            &.collect-btn{
+                background-color: #F9A605;
+            }
+        }
+    }
+}

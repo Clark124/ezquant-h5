@@ -1,0 +1,30 @@
+.account-list-wrapper{
+    padding: 15px 15px 40px 15px;
+    .title{
+        font-size: 15px;
+        text-align: center;
+    }
+    .account-list{
+        margin-top: 20px;
+        .account-item{
+            font-size: 14px;
+            background-color: #fff;
+            padding: 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .footer-btn{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #1677ff;
+        color: #fff;
+        font-size: 16px;
+    }
+}

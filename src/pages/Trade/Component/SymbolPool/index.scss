@@ -1,0 +1,176 @@
+.symbol-pool-wrapper {
+    color: #222;
+
+    .symbol-pool-list-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 10px;
+        background: #fff;
+        border-top: 1px solid #eee;
+    }
+
+    .symbol-pool-list {
+        flex: 0.95;
+        padding: 10px 0;
+        overflow-x: scroll;
+
+        .pool-list {
+            white-space: nowrap;
+            // display:inline-flex;
+            // align-items: center;
+            // width: 100%;
+            // display: inline-flex;
+            >div {
+                display: inline-block;
+                font-size: 14px;
+                margin-right: 10px;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 19px;
+                    height: 4px;
+                    border-radius: 2px;
+                    background: #083AEF;
+                    bottom: -7px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    display: none;
+                }
+
+                &.active {
+                    color: #083AEF;
+
+                    &::after {
+                        display: block;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .add-pool-btn {
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        background: rgba(8, 58, 239, 0.1);
+        border-radius: 50%;
+        color: #083AEF;
+    }
+
+    .content {
+        padding: 15px;
+
+        .symbol-list {
+            border-radius: 5px;
+            background: #fff;
+            padding: 15px;
+
+            .head-title {
+                display: flex;
+                font-size: 12px;
+                color: #999;
+                justify-content: space-between;
+
+                >span {
+                    text-align: center;
+
+                    &.code {
+                        width: 70px;
+                    }
+
+                    &.operate {
+                        width: 50px;
+                    }
+
+                    &.code-name {
+                        flex: 1;
+                    }
+                }
+            }
+
+            .symbol-item {
+                display: flex;
+                font-size: 14px;
+                color: #222;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #eee;
+
+                &:last-of-type {
+                    border-bottom: none;
+                }
+
+                .delete {
+                    color: red;
+                    font-size: 13px;
+                }
+
+                >span {
+
+                    text-align: center;
+
+                    &.code {
+                        width: 70px;
+                        color: #083AEF;
+                    }
+
+                    &.delete {
+                        width: 50px;
+                    }
+
+                    &.code-name {
+                        flex: 1;
+                    }
+                }
+
+            }
+
+            .no-data{
+                text-align: center;
+                height: 100px;
+                line-height: 100px;
+            }
+        }
+
+        .footer-btn {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+
+            >div {
+                width: 160px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background: #083AEF;
+                color: #fff;
+                font-size: 15px;
+
+            }
+        }
+    }
+
+    .add-pool-input {
+        padding: 15px;
+    }
+}
+
+.add-pool-input {
+    padding: 10px;
+
+    >input {
+        box-sizing: border-box;
+        border: 1px solid #eee;
+        height: 40px;
+        width: 100%;
+        padding-left: 15px;
+    }
+}

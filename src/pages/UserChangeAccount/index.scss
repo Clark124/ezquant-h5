@@ -1,0 +1,43 @@
+.change-account-wrapper{
+    padding: 15px;
+    padding-bottom: 40px;
+    >.title{
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .account-item{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #eee;
+        padding: 15px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        .avatar-username{
+            display: flex;
+            align-items: center;
+            .avatar{
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+            .username{
+                font-size: 14px;
+            }
+        }
+    }
+    .confim-btn{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #2A89FF;
+        color: #fff;
+    }
+}

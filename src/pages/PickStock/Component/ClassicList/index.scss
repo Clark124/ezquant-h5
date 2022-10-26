@@ -1,0 +1,55 @@
+.classic-list-wrapper {
+    padding: 0 15px 15px 15px;
+    >.title {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 15px;
+
+    }
+
+    .range-wrapper {
+        background-color: #fff;
+        padding: 15px;
+
+        .range-list {
+            display: flex;
+            justify-content: space-between;
+
+            .range-item {
+                color: #222;
+                border-radius: 5px;
+                &.active {
+                    color: #083AEF;
+                }
+            }
+        }
+    }
+
+    .classic-list {
+        .classic-item {
+            background-color: #fff;
+            margin-bottom: 10px;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5px;
+            .strategy-name {
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+
+            .subcribe-btn {
+                display: inline-block;
+                width: 65px;
+                height: 24px;
+                line-height: 24px;
+                background: #EEF2FF;
+                border: 0.5px solid #A1B2F1;
+                border-radius: 2px;
+                text-align: center;
+                color: #083AEF;
+            }
+        }
+
+    }
+}

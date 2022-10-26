@@ -1,0 +1,94 @@
+.symbol-pool-manage-wrapper{
+    padding-bottom: 40px;
+    position: relative;
+    .tab-list{
+        display: flex;
+        >div{
+            flex: 1;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            color: #999;
+            background: #F1EFEF;
+            &.active{
+                background: #083AEF;
+                color: #fff;
+            }
+        }
+    }
+    .content{
+        padding: 15px;
+        .data-list-wrapper{
+            padding: 15px;
+            background: #fff;
+            border-radius: 5px;
+            .head-title{
+                display: flex;
+                justify-content: space-between;
+                .code,.code-name,.top-icon{
+                    flex: 1;
+                }
+                .select-icon{
+                    flex: 0.5;
+                }
+            }
+         
+            .symbol-item{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #eee;
+                .code,.code-name,.top-icon{
+                    flex: 1;
+                }
+                .select-icon{
+                    flex: 0.5;
+                }
+
+            }
+            .nav-add-code{
+                margin: 20px 0 10px 0;
+                text-align: center;
+                border: 1px dashed #083AEF;
+                background: #EEF2FF;
+                color: #083AEF;
+                padding: 10px 0;
+                border-radius: 5px;
+
+            }
+        }
+    }
+    .footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        background: #fff;
+        font-size: 15px;
+        >div{
+           
+            text-align: center;
+            height: 49px;
+            line-height: 49px;
+            &.select-all{
+                flex: 1;
+                text-align:left;
+                padding-left: 20px;
+            }
+        }
+        .adm-checkbox-icon{
+            border-radius: 5px;
+            width: 19px;
+            height: 19px;
+        }
+        .adm-checkbox-content{
+            font-size: 15px;
+        }
+    }
+}

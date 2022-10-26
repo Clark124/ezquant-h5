@@ -1,0 +1,159 @@
+.strategy-trust-wrapper {
+    padding: 15px 15px 40px 15px;
+    .trust-item{
+        font-size: 15px;
+        color: #222;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 10px 15px;
+        .trust-item-value{
+            display: flex;
+            align-items: center;
+        }
+        .arrow-icon{
+            width: 15px;
+        }
+    }
+    >.title {
+        font-size: 15px;
+        color: #222;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .strategy-name {
+        background-color: #fff;
+        color: #999;
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .discribe {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .select-radio-wrapper {
+        padding: 15px;
+        background-color: #fff;
+        margin: 15px 0;
+
+        .set-price {
+            margin-top: 10px;
+            margin-bottom: 7px;
+            color: #222;
+            padding-left: 30px;
+
+            .set-price-title {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .methods {
+       
+        padding: 10px;
+        background-color: #fff;
+        margin-bottom: 10px;
+
+        .method-name {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 10px;
+
+        }
+
+        .method-value {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            .arrow-icon {
+                width: 12px;
+                transform: rotate(90deg);
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .notice-time {
+        padding: 15px 10px;
+        background-color: #fff;
+
+        .notice-time-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            .add-time {
+                background: #F5F5F5;
+                border: 1px solid #E5E5E5;
+                border-radius: 5px;
+                padding: 5px 10px;
+            }
+        }
+
+        
+    }
+
+    .confirm-btn{
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        background-color: #083AEF;
+        color: #fff;
+        margin-top: 30px;
+    }
+    .tips{
+        padding: 10px 15px;
+        font-size: 12px;
+        color: #FC5F01;
+        background: rgba(238, 133, 134, 0.1);
+        margin-top: 20px;
+        margin-left: -15px;
+        margin-right: -15px;
+        >.explain{
+            color: #083AEF;
+        }
+    }
+    .btn-list{
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        margin-top: 20px;
+        >div{
+            flex: 1;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 15px;
+            &.edit{
+                background-color: #083AEF;
+            }
+            &.status{
+                background-color: #3EEFA5;
+                &.stop{
+                    background-color: gray;
+                }
+            }
+            &.delete{
+                background-color: #FC5F01;
+            }
+        }
+    }
+
+}

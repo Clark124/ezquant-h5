@@ -1,0 +1,261 @@
+.traderoom-wrapper {
+    padding-bottom: 50px;
+    .stock-info {
+        padding: 15px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+
+        .add-btn {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: #B7C3ED;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            line-height: 20px;
+            font-weight: bold;
+            margin-right: 10px;
+            &.gray{
+                background-color: gray;
+            }
+        }
+
+        .info-colums {
+            color: #222;
+
+            .stock-name {
+                font-size: 14px;
+            }
+
+            .stock-code {
+                font-size: 12px;
+                color: #bbb;
+                margin-top: 5px;
+            }
+
+            .current-price {
+                font-size: 14px;
+                color: #E84345;
+                font-weight: bold;
+                &.green{
+                    color: #3EEFA5;
+                }
+            }
+
+            .price-limit {
+                font-size: 12px;
+                margin-top: 5px;
+                color: #E84345;
+                >span{
+                    &.green{
+                        color: #3EEFA5;
+                    }
+                }
+            }
+
+            .high {
+                margin-bottom: 7px;
+            }
+
+            .high,
+            .low {
+                >.text {
+                    margin-right: 7px;
+                }
+
+                >.value {
+                    color: #E84345;
+
+                    &.green {
+                        color: #11DFC4;
+                    }
+                }
+            }
+        }
+
+        .nav-btn {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            color: #083AEF;
+            text-decoration: underline;
+            .bj-icon {
+                width: 20px;
+                // margin-right: 8px;
+            }
+
+            .arrow-icon {
+                width: 12px;
+            }
+            .search-icon{
+                width: 20px;
+            }
+        }
+    }
+
+    .period-list {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        background-color: #fff;
+
+        >span {
+            height: 30px;
+            line-height: 30px;
+            width: 45px;
+            text-align: center;
+
+            &.active {
+                color: #083AEF;
+                border-bottom: 3px solid #083AEF;
+            }
+        }
+    }
+
+    .chart-wrapper {
+        background-color: #fff;
+        padding: 10px 0;
+    }
+
+    .stragegy-manage {
+        margin-top: 10px;
+        .strategy-tabs {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            >span {
+                height: 30px;
+                line-height: 30px;
+                width: 35px;
+                text-align: center;
+
+                &.active {
+                    color: #083AEF;
+                    border-bottom: 3px solid #083AEF;
+                }
+            }
+        }
+        .strategy-head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 30px;
+            line-height: 30px;
+            font-size: 13px;
+            color: #999;
+            
+            >div{
+                flex: 1;
+                text-align: center;
+            }
+        }
+        .strategy-list{
+            padding: 0 15px;
+            background-color: #fff;
+            height: 300px;
+            overflow-y: scroll;
+            
+            .strategy-item{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #eee;
+                height: 50px;
+                .strategy-name{
+                    text-decoration: underline;
+                    &.active{
+                        color: #083AEF;
+                    }
+                }
+                >div{
+                    flex: 1;
+                    text-align: center;
+                    white-space:nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 12px;
+                }
+                .nav-btn{
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 12px;
+                    >span{
+                        padding: 2px 9px;
+                        &.backtest{
+                            color: #083AEF;
+                            background-color: #EEF2FF;
+                            border: 1px solid #A1B2F1;
+                        }
+                        &.follow{
+                            color: #FB6D04;
+                            background-color: #FDECC3;
+                            border: 1px solid #F7B10A;
+                            margin-left: 7px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .btn-list {
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 50px;
+        right: 0;
+        >div {
+            height: 50px;
+            color: #fff;
+
+            .available {
+                font-size: 12px;
+                width: 110px;
+                height: 25px;
+                line-height: 25px;
+                background-color: #F8BE0C;
+                padding-left: 3px;
+
+            }
+
+            .capital {
+                font-size: 12px;
+                width: 110px;
+                height: 25px;
+                line-height: 25px;
+                background-color: #FF5400;
+                padding-left: 3px;
+            }
+
+        }
+
+        .buy-btn,
+        .sell-btn,
+        .more-btn {
+            flex: 1;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            // border-left: 1px solid #aaa;
+        }
+
+        .buy-btn {
+            background-color: #FE5958;
+        }
+
+        .sell-btn {
+            background-color: #3EEFA5;
+        }
+
+        .more-btn {
+            background-color: #BBBBBB;
+        }
+    }
+}

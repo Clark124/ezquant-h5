@@ -1,0 +1,187 @@
+.home-wrapper {
+    .banner {}
+
+    .carousel-wrapper {
+        padding: 15px;
+    }
+
+    .home-block {
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .block-title-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .block-title {
+        font-size: 14px;
+        color: #222222;
+    }
+
+    .show-more {
+        font-size: 12px;
+        color: #999999;
+    }
+
+    .block-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info-item {
+        width: 108px;
+        height: 101px;
+        border-radius: 5px;
+        background: #ECFBF7;
+        text-align: center;
+        padding: 15px 5px 0 5px;
+        box-sizing: border-box;
+    }
+
+    .info-item .rate {
+        font-size: 17px;
+        font-weight: bold;
+        color: #11DFC4;
+        margin-bottom: 7px;
+    }
+
+    .info-item .rate-name {
+        font-size: 11px;
+        color: #11DFC4;
+        margin-bottom: 11px;
+    }
+
+    .info-item .strategy-name {
+        font-size: 11px;
+        color: #071513;
+        // font-weight: bold;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+
+    .info-item.red {
+        background: #FFE7E7;
+    }
+
+    .info-item.red .rate {
+        color: #E84345;
+    }
+
+    .info-item.red .rate-name {
+        color: #E84345;
+    }
+
+    .split-line {
+        width: 100%;
+        height: 1px;
+        background: #E5E5E5;
+        margin: 20px 0;
+    }
+
+    .trust-item {
+        height: 129px;
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .trust-item-title-wrap {
+        box-sizing: border-box;
+        width: 100%;
+        height: 29px;
+        line-height: 29px;
+        background: #E7EFFC;
+        border: 1px solid #EEEEEE;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .trust-item-title {
+        font-size: 13px;
+        color: #222222;
+    }
+
+    .trust-data {
+        padding: 10px;
+    }
+
+    .trust-title {
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 11px;
+        color: #999999;
+    }
+
+    .trust-info {
+        display: flex;
+        width: 100%;
+        font-size: 12px;
+        color: #222222;
+        margin-bottom: 15px;
+    }
+
+    .trust-info-item {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .trust-info-item.red {
+        color: #E84345;
+    }
+
+    .trust-info-item.green {
+        color: green;
+    }
+
+
+    .trade-log-item {
+        padding: 15px 0;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    .trade-log-item:last-child {
+        border-bottom: none;
+    }
+
+    .trade-log-info {
+        font-size: 13px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .trade-log-date {
+        font-size: 11px;
+        color: #999;
+        display: flex;
+        align-items: center;
+    }
+    // .time{
+    //     margin-top: 3px;
+    // }
+
+    .time-icon {
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
+    }
+    .no-data{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}

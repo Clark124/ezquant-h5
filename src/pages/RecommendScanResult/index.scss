@@ -1,0 +1,92 @@
+.selection-detail-wrapper{
+    min-height: 100vh;
+    background-color: #fff;
+    .discribe-wrapper{
+        background-color: #083AEF;
+        color: #fff;
+        padding: 25px 15px;
+        .strategy-name{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .discribe{
+            margin-top: 15px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .date{
+            text-align: right;
+            margin-top: 10px;
+        }
+    }
+    .result-list-wrapper{
+        padding: 0px 15px;
+        height: 100%;
+    }
+    .result-list{
+        margin-top: 25px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+        .list-head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 10px;
+            background-color: #E7EFFC;
+            font-size: 14px;
+            color: #222;
+            .nav-history{
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .list-title{
+            display: flex;
+            padding: 15px 0;
+            >div{
+                flex:1;
+                text-align: center;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .list-wrapper{
+            padding: 0 15px;
+        }
+        .list-item{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 8px;
+            padding-bottom: 10px;
+            &:last-of-type{
+                border-bottom: none;
+            }
+            >div{
+                flex:1;
+                text-align: center;
+            }
+            .stock-name{
+                font-size: 14px;
+                color: #222;
+            }
+            .stock-code{
+                font-size: 12px;
+                color: #999;
+            }
+            .price{
+                font-weight: bold;
+                color: #222;
+                font-size: 15px;
+            }
+            .change-rate{
+                font-weight: bold;
+                color: #E84345;
+                font-size: 15px;
+                &.green{
+                    color: green;
+                }
+            }
+        }
+    }
+}

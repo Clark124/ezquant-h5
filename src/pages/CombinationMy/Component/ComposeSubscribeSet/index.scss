@@ -1,0 +1,15 @@
+.compose-subscibe-set-wrapper{
+    padding: 15px;
+    font-size: 14px;
+    color: #222;
+    .content{
+        padding: 15px;
+        background-color: #fff;
+        .set-item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+    }
+}

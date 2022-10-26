@@ -1,0 +1,100 @@
+.risk-control-wrapper{
+    padding: 15px;
+    font-size: 14px;
+    color: #222;
+    .main-title{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .content{
+        padding: 15px;
+        background-color: #fff;
+        margin-top: 20px;
+        .risk-item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            .risk-item-name{
+                width: 100px;
+            }
+        }
+        .risk-style-item{
+            margin-bottom: 15px;
+        }
+        .risk-input{
+            width: 160px;
+            height: 30px;
+            border: 1px solid #eee;
+            padding-left: 15px;
+            margin-right: 5px;
+        }
+        .adm-checkbox{
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+        .input-discribe{
+            width: 100%;
+            border: 1px solid #eee;
+            box-sizing: border-box;
+            padding: 10px;
+            height: 100px;
+        }
+        .set-item{
+            font-size: 14px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         
+           
+            .set-item-right{
+                display: flex;
+                align-items: center;
+                >img{
+                    width: 13px;
+                    margin-left: 5px;
+                }
+            }
+            .input-value{
+                text-align: right;
+                width: 100px;
+            }
+        }
+        .select-backtest-date{
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .date{
+               border: 1px solid #eee;
+               padding: 4px 10px;
+            }
+        }
+    }
+    .footer-btn{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        >div{
+            color: #fff;
+            background-color: #083AEF;
+            height: 37px;
+            line-height: 37px;
+            width: 150px;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+    .backtest-btn{
+        color: #fff;
+        background-color: #083AEF;
+        height: 37px;
+        line-height: 37px;
+        width: 150px;
+        text-align: center;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

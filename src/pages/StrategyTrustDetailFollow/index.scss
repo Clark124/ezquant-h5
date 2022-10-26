@@ -1,0 +1,59 @@
+.trust-detail-follow-wrapper {
+    padding: 15px;
+
+    .strategy-content {
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        .strategy-name {
+            color: #083AEF;
+            margin-bottom: 20px;
+        }
+
+        .strategy-type {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            margin-top: 15px;
+            .method-value{
+                display: flex;
+            }
+        }
+        .strategy-type-method{
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            margin-top: 15px;
+            .method-value{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .discribe {
+            margin-top: 15px;
+
+            >.text {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .my-strategy-detail-btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        >div,a {
+            width: 160px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            color: #fff;
+            background-color: #083AEF;
+        }
+    }
+}

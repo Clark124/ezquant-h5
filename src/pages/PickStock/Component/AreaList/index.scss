@@ -1,0 +1,28 @@
+.area-list-wrapper{
+    padding: 15px;
+    padding-bottom: 50px;
+    .area-name{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .area-item{
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-btn{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        height: 45px;
+        background-color: #083AEF;
+        text-align: center;
+        line-height: 45px;
+        color: #fff;
+        font-size: 16px;
+    }
+}

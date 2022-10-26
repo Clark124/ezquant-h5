@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+// import 'antd-mobile/dist/antd-mobile.css'
+import store from './store'
+import './asstes/css/common.css'
+import { Provider } from 'react-redux'
+import Routers from '../src/router/router';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <Provider store={store}>
+        <Routers />
+    </Provider>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

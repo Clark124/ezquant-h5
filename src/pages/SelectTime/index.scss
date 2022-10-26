@@ -1,0 +1,102 @@
+.select-time-list-wrapper {
+    min-height: 100vh;
+    background-color: #F5F5F5;
+    .create-btn{
+        display: block;
+        width: 92%;
+        margin: 0 auto;
+        border: 1px dashed #083AEF;
+        text-align: center;
+        height: 35px;
+        line-height: 35px;
+        background-color: #EEF2FF;
+        color: #083AEF;
+        border-radius: 5px;
+        margin-top: 10px
+    }
+    .head-tab-list {
+        display: flex;
+
+        >span {
+            flex: 1;
+            text-align: center;
+            height: 36px;
+            line-height: 36px;
+            color: #999;
+            background-color: #F1EFEF;
+            margin-right: 1px;
+
+            &:last-child {
+                margin-right: 0%;
+            }
+
+            &.active {
+                color: #fff;
+                background-color: #083AEF;
+            }
+        }
+    }
+
+    .select-time-list {
+        padding: 15px;
+
+        .select-time-item {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 18px 15px;
+            margin-bottom: 10px;
+            .strategy-name {
+                font-size: 15px;
+                color: #222;
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+                >.type{
+                    margin-left: 5px;
+                    background: #EEF2FF;
+                    border: 0.5px solid #A1B2F1;
+                    border-radius: 2px;
+                    text-align: center;
+                    color: #083AEF;
+                    font-size: 12px;
+                }
+            }
+
+            .info-wrapper {
+                display: flex;
+                justify-content: space-between;
+
+                .info-list {
+                    .info-item {
+                        margin-bottom: 10px;
+                        font-size: 13px;
+
+                        .info-name {
+                            color: #999;
+                        }
+
+                        .info-value {
+                            color: #222;
+
+                            &.red {
+                                color: #FE5958;
+                            }
+                        }
+                    }
+                }
+
+                .signal-btn {
+                    display: inline-block;
+                    width: 65px;
+                    height: 24px;
+                    line-height: 24px;
+                    background: #EEF2FF;
+                    border: 0.5px solid #A1B2F1;
+                    border-radius: 2px;
+                    text-align: center;
+                    color: #083AEF;
+                }
+            }
+        }
+    }
+}

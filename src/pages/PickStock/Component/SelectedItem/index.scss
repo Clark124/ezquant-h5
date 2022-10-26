@@ -1,0 +1,53 @@
+.select-list-wrapper {
+    .select-item {
+        margin-bottom: 20px;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 5px 0;
+        .select-name {
+            color: #083AEF;
+            text-decoration: underline;
+        }
+
+        .edit-btn {
+            color: #083AEF;
+        }
+        .region-select{
+            color: #083AEF;
+            flex: 1;
+            text-align: right;
+            padding-right: 15px;
+        }
+
+    }
+
+    .model-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .model-item-input {
+        border: 1px solid #083AEF;
+        height: 30px;
+        padding-left: 15px;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    .region-modal-input{
+        display: flex;
+        align-items: center;
+        .region-item-input{
+            border: 1px solid #083AEF;
+            width: 70px;
+            box-sizing: border-box;
+            height: 25px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}

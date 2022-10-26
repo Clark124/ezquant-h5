@@ -1,0 +1,45 @@
+.strategy-trust-signal-wrapper{
+    padding: 15px;
+    .content{
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 5px;
+        .strategy-trust-signal-head{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            >span{
+                flex: 1;
+                text-align: center;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .strategy-trust-signal-item{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            &:last-of-type{
+                border-bottom: none;
+            }
+            >span{
+                flex: 1;
+                text-align: center;
+                color: #222;
+                &.red{
+                    color: #E84345
+                }
+                &.time{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .no-data{
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+    }
+}

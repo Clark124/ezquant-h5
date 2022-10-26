@@ -1,0 +1,32 @@
+.trade-wrapper {
+    min-height: 100vh;
+    background-color: #F5F5F5;
+
+    .head-tab-list {
+        display: flex;
+
+        >span {
+            flex: 1;
+            text-align: center;
+            height: 36px;
+            line-height: 36px;
+            color: #999;
+            background-color: #F1EFEF;
+            margin-right: 1px;
+
+            &:last-child {
+                margin-right: 0%;
+            }
+
+            &.active {
+                color: #fff;
+                background-color: #083AEF;
+            }
+        }
+    }
+    .trade-content{
+       
+    }
+
+   
+}

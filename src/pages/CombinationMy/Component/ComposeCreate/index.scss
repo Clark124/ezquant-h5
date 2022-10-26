@@ -1,0 +1,70 @@
+.compose-stock-create{
+    padding: 15px 0;
+    color: #222;
+    padding-bottom: 90px;
+    .main-title{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    >.title{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .market-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        >div{
+            width: 106px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            background-color: #fff;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            &:nth-child(3n+3){
+                margin-right: 0;
+            }
+        }
+    }
+    .select-date{
+        font-size: 14px;
+        margin-top: 20px;
+        .date-picker{
+            margin-left: 20px;
+            background-color: #fff;
+            padding: 8px 20px;
+        }
+    }
+    .footer{
+        font-size: 14px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 45px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        >.reset{
+            color: #083AEF;
+            padding: 0 30px;
+        }
+        .confirm-btn{
+            height: 45px;
+            line-height: 45px;
+            width: 106px;
+            background-color: #083AEF;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+        }
+        .select-num{
+            flex: 1;
+        }
+    }
+}
+

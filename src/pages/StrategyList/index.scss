@@ -1,0 +1,81 @@
+.strategy-list-wrapper{
+    background-color: #f5f5f5;
+    .tab-list{
+        display: flex;
+        font-size: 13px;
+        .tab-item{
+            flex: 1;
+            text-align: center;
+            height: 36px;
+            line-height: 36px;
+            color: #999;
+            background-color: #F1EFEF;
+            margin-right: 1px;
+            &:last-child{
+                margin-right: 0;
+            }
+            &.active{
+                color: #fff;
+                background: #083AEF;
+            }
+        }
+    }
+    .combination-list{
+        padding: 10px 15px;
+        .data-item{
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            .name-chart{
+                display: flex;
+                .name-discribe{
+                    flex: 0.4;
+                    .strategy-name{
+                        font-size: 16px;
+                        color: #222;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    .price{
+                        color: #FE5958;
+                        font-size: 15px;
+                        margin-bottom: 10px;
+                    }
+                    .create{
+                        font-size: 13px;
+                        color: #999;
+                        margin-bottom: 5px;
+                    }
+                }
+                .line-chart{
+                    flex: 0.6;
+                    height: 100px;
+                }
+            }
+            .message-list{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                .message-item{
+                    .message-name{
+                        font-size: 12px;
+                        color: #999;
+                    }
+                    .message{
+                        font-size: 17px;
+                        font-weight: bold;
+                        color: #222;
+                        &.red{
+                            color: #FE5958;
+                        }
+                        &.green{
+                            color: green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,158 @@
+.scan-create-wrapper{
+    padding: 15px;
+    color: #222;
+    padding-bottom: 90px;
+    >.title{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .market-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        >div{
+            width: 106px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            background-color: #fff;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            &:nth-child(3n+3){
+                margin-right: 0;
+            }
+            &.active{
+                background-color: #083AEF;
+                color: #fff;
+            }
+        }
+    }
+    .market-radio{
+        padding: 15px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        .market-item{
+            margin-bottom: 20px;
+            .adm-checkbox-icon{
+                border-radius: 0;
+            }
+            .search-btn{
+                font-size: 15px;
+                color: #083AEF;
+            }
+            .has-selected-code-title{
+                margin-top: 15px;
+            }
+            .has-selected-code{
+                padding: 10px;
+                border: 1px solid #eee;
+                margin-top: 5px;
+            }
+            .selected-code{
+                display: inline-block;
+                margin-right: 8px;
+                margin-bottom: 7px;
+                border: 1px solid #eee;
+                padding: 5px 8px;
+                font-size: 13px;
+                &:nth-of-type(3n+3){
+                    margin-right: 0;
+                }
+                .cancel-code-btn{
+                    color: red;
+                    margin-left: 15px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .set-item{
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        margin-bottom: 20px;
+        .arrow-icon{
+            width: 12px;
+        }
+        .set-item-name{
+            margin-right: 5px;
+            color: #999;
+        }
+        .capital-input{
+            flex: 1;
+        }
+    }
+    .strategy-type-method{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        margin-top: 15px;
+        background-color: #fff;
+        padding: 15px;
+        .method-value{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0%;
+        display: flex;
+        margin: 0 -15px;
+        >div{
+            flex: 1;
+            &.deploy{
+                background-color: #083AEF;
+            }
+        }
+    }
+
+    .scan-create-confirm-btn{
+        margin-top: 40px;
+        background-color: #083AEF;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+    }
+
+
+    .strategy-modal{
+        .strategy-item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            padding-right: 20px;
+        }
+        .code-list{
+            margin-top: 10px;
+        }
+        .code-item{
+            margin-bottom: 10px;
+            color: #083AEF;
+        }
+        .search-input{
+            width: 100%;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+    }
+    .scan-name{
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        >.text{
+            margin-right: 10px;
+        }
+        >input{
+            height: 30px;
+            padding-left: 15px;
+        }
+    }
+}

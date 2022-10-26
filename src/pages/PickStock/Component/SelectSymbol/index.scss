@@ -1,0 +1,58 @@
+.select-symbol-wrapper{
+    padding: 15px;
+    color: #222;
+    .title{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .content{
+        padding: 10px;
+        background-color: #fff;
+        .head-title{
+            display: flex;
+            >span{
+                font-size: 12px;
+                color: #999;
+                flex: 1;
+                text-align: center;
+            }
+        }
+        .symbol-item{
+            display: flex;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            &:last-of-type{
+                border-bottom: none;
+            }
+            .price{
+                font-weight: bold;
+            }
+            >div{
+                font-size: 14px;
+                color: #222;
+                flex: 1;
+                text-align: center;
+                .symbol-code{
+                    font-size: 12px;
+                    color: #999;
+                }
+               
+            }
+            .profit{
+                font-weight: bold;
+                &.red{
+                    color: #E84345;
+                }
+            }
+        }
+    }
+    .confirm-btn{
+        margin-top: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #083AEF;
+        color: #fff;
+        text-align: center;
+    }
+}

@@ -1,0 +1,180 @@
+.business-wrapper{
+    padding: 15px 10px;
+    font-size: 14px;
+    .search-result{
+        margin: 0 auto;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .quote-wrapper{
+        background-color: #fff;
+        padding: 15px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        >.left{
+            flex: 1;
+            .order-type{
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #eee;
+                .value{
+                    display: flex;
+                    align-items: center;
+                    >img{
+                        width: 14px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .current-price{
+                margin-bottom: 15px;
+                >.text{
+                    color: #999;
+                }
+                >.value{
+                    color: #E84345;
+                }
+            }
+            .change-price-wrapper{
+                display: flex;
+                align-items: center;
+
+                margin-bottom: 20px;
+                >.text{
+                    width: 80px;
+                }
+                .add-price-btn{
+                    background-color: #083AEF;
+                    width: 30px;
+                    height: 30px;
+                    text-align: center;
+                    line-height: 30px;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                .price-input{
+                    box-sizing: border-box;
+                    border: 1px solid #eee;
+                    width: 100px;
+                    height: 30px;
+                    text-align: center;
+                }
+
+            }
+            .high-low{
+                >.value{
+                    &.green{
+                        color: #11DFC4;
+                        margin-right: 20px;
+                    }
+                    &.red{
+                        color: #E84345;
+                    }
+                }
+            }
+            .select-date-wrapper{
+                .select-date{
+                    margin-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .select-position{
+                display: flex;
+                margin-top: 15px;
+                border: 1px solid #eee;
+                margin-bottom: 15px;
+                width: 160px;
+                >span{
+                    width: 40px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    &.active{
+                        background-color: #E84345;
+                        color:#fff
+                    }
+                }
+            }
+            .can-buy{
+                font-size: 15px;
+                margin-bottom: 15px;
+                >.text{
+                    color: #999;
+                }
+                >.value{
+                    color: #E84345;
+                    font-weight: bold;
+                }
+            }
+            .current-position-wrapper{
+                border-top: 1px solid #eee;
+                padding-top: 10px;
+                .current-position-head{
+                    display: flex;
+                    margin-top: 10px;
+                    font-size: 12px;
+                    >span{
+                        flex: 1;
+                        text-align: center;
+                    }
+                }
+                .current-position-list{
+                    .current-position-item{
+                        margin-top: 10px;
+                        display: flex;
+                        font-size: 12px;
+                        >span{
+                            flex: 1;
+                            text-align: center;
+                        }
+                    }
+                    
+                }
+
+            }
+        }
+        >.right{
+            flex: 0.7;
+            .current-five-quote{
+                background: #eee;
+                padding: 10px;
+                .quote-item{
+                    margin-bottom: 10px;
+                    color: #666;
+                    display: flex;
+                    &:last-of-type{
+                        margin-bottom: 0;
+                    }
+                    >span{
+                        flex: 1;
+                    }
+                }
+            }
+        }
+    }
+    .footer-btn{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        >div{
+            width: 150px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 20px;
+            background: #083AEF;
+            color: #fff;
+
+        }
+    }
+}

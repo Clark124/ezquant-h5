@@ -1,0 +1,25 @@
+.buy-integrate-wrapper{
+    font-size: 14px;
+    color: #222;
+    padding: 15px;
+    .title{
+        margin-bottom: 15px;
+    }
+    .integrate-item{
+        padding: 15px;
+        background: #fff;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        .btn{
+            font-size: 12px;
+            color: #083AEF;
+            background: #EEF2FF;
+            border: 1px solid #A1B2F1;
+            padding: 3px 5px;
+            border-radius: 3px;
+        }
+    }
+}

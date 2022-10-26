@@ -1,0 +1,189 @@
+.order-wrapper {
+    padding: 15px;
+
+    .order-head {
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .tab {
+        display: flex;
+
+        // margin-bottom: 15px;
+        >span {
+            padding: 5px 10px;
+            margin-right: 15px;
+            border: 1px solid #999999;
+            border-radius: 15px;
+            color: #999;
+
+            &.active {
+                color: #083AEF;
+                border-color: #083AEF;
+            }
+        }
+    }
+
+    .current-all {
+        margin-top: 10px;
+        font-size: 13px;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+    }
+
+    .order-list {
+        .order-item {
+            background-color: #fff;
+            padding: 20px 15px;
+            color: #222;
+            font-size: 13px;
+            margin-bottom: 10px;
+
+            .code-date {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 15px;
+
+                .code-name {
+                    font-size: 16px;
+                    color: #222;
+                    font-weight: bold;
+                }
+
+                .cancel-order-btn {
+                    background-color: #083AEF;
+                    color: #fff;
+                    font-size: 14px;
+                    padding: 5px 8px;
+                    border-radius: 5px;
+                }
+
+                >.date {
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+
+            .info-line {
+                display: flex;
+                margin-bottom: 10px;
+                color: #222;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                .update-price{
+                    color: #083AEF;
+                    text-decoration: underline;
+                }
+
+                >div {
+                    flex: 1;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 25px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    >span {
+                        &.red {
+                            color: #FE5958;
+                        }
+                    }
+
+                }
+            }
+
+            .price-input-wrapper {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+
+                >.price {
+                    display: flex;
+                    align-items: center;
+                    color: #222;
+                    margin-right: 15px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    .price-text {
+                        margin-right: 5px;
+                    }
+
+                    .price-input {
+                        width: 50px;
+                        height: 32px;
+                        border: 1px solid #eee;
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            .start-end-date {
+                margin-top: 10px;
+                position: relative;
+
+                >.text {
+                    margin-right: 10px;
+                }
+
+                .edit-btn {
+                    position: absolute;
+                    right: 0;
+                    top: -27px;
+                    color: #083AEF;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    border: 1px solid #083AEF;
+                    width: 50px;
+                    height: 25px;
+                    line-height: 25px;
+                    border-radius: 13px;
+                    text-align: center;
+                    font-size: 14px;
+
+                }
+            }
+
+            .time-order-item-btn {
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-around;
+                >span {
+
+                    background-color: #083AEF;
+                    color: #fff;
+                    padding: 5px;
+                    width: 40px;
+                    text-align: center;
+                    border-radius: 5px;
+                    &.close-position{
+                        background-color: #FE5958;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .no-data {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+    .update-price-input{
+        border:1px solid #eee;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

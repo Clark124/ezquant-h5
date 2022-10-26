@@ -1,0 +1,60 @@
+.pool-list-wrapper{
+    padding: 15px;
+    padding-bottom: 50px;
+    .area-name{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .area-item{
+        display: inline-block;
+        width: 106px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        background-color: #fff;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:nth-child(3n+3) {
+            margin-right: 0;
+        }
+        &.active{
+            background-color: #083AEF;
+            color: #fff;
+        }
+    }
+    .selected-market{
+        padding: 15px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        .market-item{
+            display: inline-block;
+            margin-right: 10px;
+            border: 1px solid #eee;
+            padding: 3px 10px 5px 10px;
+            margin-bottom: 10px;
+            .cancel-btn{
+                margin-left: 20px;
+                font-size: 20px;
+                color: red;
+            }
+        }
+    }
+    .footer-btn{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        height: 45px;
+        background-color: #083AEF;
+        text-align: center;
+        line-height: 45px;
+        color: #fff;
+        font-size: 16px;
+    }
+}

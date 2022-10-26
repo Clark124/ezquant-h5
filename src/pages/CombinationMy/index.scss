@@ -1,0 +1,155 @@
+.component-my-wrapper {
+    .tab-list {
+        display: flex;
+
+        >div {
+            flex: 1;
+            text-align: center;
+            height: 36px;
+            line-height: 36px;
+            color: #999;
+            background-color: #F1EFEF;
+            margin-right: 1px;
+
+            &:last-child {
+                margin-right: 0%;
+            }
+
+            &.active {
+                color: #fff;
+                background-color: #083AEF;
+            }
+        }
+    }
+    .component-list{
+        padding: 10px 15px;
+        .create-btn{
+            display: block;
+            border: 1px dashed #083AEF;
+            text-align: center;
+            height: 35px;
+            line-height: 35px;
+            background-color: #EEF2FF;
+            color: #083AEF;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    }
+    .data-list-wrapper{
+        padding: 15px;
+        background: #fff;
+        .data-title-list{
+            display: flex;
+            padding: 10px 0 0px 0;
+            .data-title{
+                flex: 1;
+                color: #999;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+        .data-item{
+            display: flex;
+            align-items: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            border-bottom: 1px solid #eee;
+            &:first-of-type{
+                margin-top: 0;
+            }
+            &:last-child{
+                border-bottom: none;
+            }
+            .userinfo{
+                flex: 1;
+                padding-left: 5px;
+                text-align: center;
+                .strategy{
+                    display: flex;
+                    margin-bottom: 5px;
+                    .strategy-name{
+                        font-weight: bold;
+                        color: #222;
+                        font-size: 15px;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .state{
+                        font-size: 10px;
+                        margin-left: 3px;
+                        background: rgba(8, 58, 239, 0.5);;
+                        color: #fff;
+                        padding: 1px 2px;
+                        &.red{
+                            background: rgba(232, 67, 69, 0.5);
+                        }
+                    }
+                }
+                .user{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .avatar{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        margin-right: 3px;
+                    }
+                    .username{
+                        font-size: 12px;
+                        color: #999;
+                    }
+                }
+                
+            }
+            .year-rate{
+                flex: 1;
+                text-align: center;
+                font-weight: bold;
+                &.red{
+                    color: #E84345;
+                }
+                &.green{
+                    color: green;
+                }
+            }
+            .total-rate{
+                flex: 1;
+                text-align: center;
+                .number{
+                    padding: 3px 6px;
+                    color: #fff;
+                    border-radius: 2px;
+                    &.red{
+                        background: #E84345;
+                    }
+                    &.green{
+                        background: green;
+                    }
+                }
+                
+            }
+            .expire-date{
+                flex: 1;
+                text-align: center;
+                color: #222;
+                .date{
+                    margin-bottom: 3px;
+                }
+                >.set,a{
+                    color: #083AEF;
+                    
+                }
+            }
+            .status{
+                flex:1;
+                color: #083AEF;
+                text-align: center;
+                &.red{
+                    color: #E84345;
+                }
+            }
+        }
+    }
+
+}

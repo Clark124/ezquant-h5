@@ -1,0 +1,51 @@
+.user-edit-wrapper{
+    font-size: 15px;
+    padding: 10px;
+    .avatar-wrapper{
+        padding: 15px;
+        background: #fff;
+        border-radius: 5px;
+        color: #222;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        .avatar-right{
+            display: flex;
+            align-items: center;
+        }
+        .avatar{
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
+        .arrow-icon{
+            width: 9px;
+            height: 14px;
+            margin-left: 24px;
+        }
+    }
+    .nickname-wrapper{
+        background:#fff;
+        border-radius: 5px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        .title{
+            color: #222;
+        }
+        .nickname{
+            color: #999;
+        }
+    }
+    .nav-password{
+        background:#fff;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+        color: #222;
+        margin-bottom: 5px;
+    }
+}

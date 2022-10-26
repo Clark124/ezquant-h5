@@ -1,0 +1,46 @@
+.backtest-list-wrapper{
+    padding: 15px;
+    .content{
+        padding: 10px;
+        background-color: #fff;
+        .head-title{
+            display: flex;
+            >span{
+                flex: 1;
+                text-align: center;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .backtest-item{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            &:last-of-type{
+                border-bottom: none;
+            }
+            >span{
+                flex: 1;
+                text-align: center;
+                font-size: 14px;
+                color: #222;
+                >.code{
+                    font-size: 12px;
+                    color: #999;
+                }
+                &.red{
+                    color: #E84345;
+                    font-weight: bold;
+                }
+            }
+            .trust-btn{
+                padding: 2px 8px;
+                color: #083AEF;
+                background-color: #EEF2FF;
+                border: 1px solid #A1B2F1;
+            }
+        }
+    }
+}
